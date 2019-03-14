@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300,400,500,600,700|Catamaran:100,200,300,400,500,600,700');
+
+/*------------------------------Colors*/
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #EEE02F;
+}
+
+.ui-menu-color-resume {
+    background-color: #F2AAE5;
+}
+
+.ui-menu-color-contact {
+    background-color: #FA6FAE;
+}
+
+.ui-menu-color-download {
+    background-color: #BFBFBF;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+/*------------------------------Special paddings/margins/text*/
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    color: #E8FFED;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table; /*using this value will ensure all child elements below it will become table cells which ensures equal-heigt values, no matter the content*/
+}    
+
+.section-column {
+    display: table-cell; /*yup, this is the indication for the styling of the child element of call "row-table"*/
+    padding: 0 30px 30px;
+    float: none; /*to stop unnecessary breaks from happening in older BS versions*/
+}
+
+.section-heading {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/RomyOLcv.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    
+}
+
+.name {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #E8FFED;
+}
+
+.title {
+    font-family: "Arima Madurai", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    color: #E8FFED;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0; /*to delete unnecessary added white spaces in between areas*/
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #676767; 
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 30px;
+    display: block;
+    font-size: 26px;
+} /* a i is added to specifically target the font awesome icons*/
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/*------------------------------Hover.css*/
+
+.hvr-sweep-to-top:before { /*the sweep-color is automatically set to blue, to change this, use this code*/
+    background: rgba(0,0,0,0.2);
+    height: 120px;
+}
+
+/*------------------------------Footer*/
+
+footer {
+    background-color: #555555;
+    color: #E8FFED;
+    min-height: 120px;
+    margin: 0; 
+}
+
+.cv-pdf i {
+    font-size: 20px;
+    color: #E8FFED;
+    text-align: center;
+    padding-left: 5px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #BFBFBF;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%; /*for a round circle*/
+    font-size: 20px;
+    line-height: 9px;
+    text-align: center;
+    color: #E8FFED;
+    background-color: #BFBFBF;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+   background-color: #EEE02F; 
+}
+
+#footer-details {
+    padding: 20px;
+}
