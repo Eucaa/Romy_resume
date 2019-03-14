@@ -45,11 +45,103 @@
         </div>
     </header>
     <section class="container-fluid">
-        <div class="row row-table">
+        <div class="row">
+            <div class="col-md-4 bg-color-personal-info section-column"> <!--Placement of class "col-md-4" is above the class "bg-color-three-reasons" so it places all data inside "col-md-4" to the left of "...-three-reasons" when using BS-->
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">
+                            Personal Info
+                        </h3>
+                    </div>
+                </div>
+                <div class="personal-info-item"> <!--Below are key-and value pairs. Key will be a label (e.g. Name), Value will be the answer to that label (e.g. Romy)-->
+                    <div class="key">
+                        <p class="uppercase"> <!--uppercase is to stay in line with all the other used uppercases-->
+                            Name:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Romy Mol van Broekhuijsen
+                        </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Address:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Zaandam, Netherlands
+                        </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            email address:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            romy.mol.vanbroekhuijsen@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-8 bg-color-three-reasons section-column"> <!--since 12 columns is the max what you can have when using BS, 8 col will result to a size of 2/3 of a full screen. Class add "section-column" will give table cells an evenly height property-->
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading uppercase">About Me</h3>
+                        <h3 class="section-heading uppercase">
+                            About Me
+                        </h3>
+                    </div>
+                </div>
+                <div class="row"> <!--be sure to add any related content of a column within the div-class area itself and not AFTER the closing /div tag-->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6"> <!-- col-10 will have an "offset" of 1 column on the left and right side/ this is set off for sm-size devices which will get 3 columns/ md-size devices will get 2 columns only-->
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-question-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">What can I do?</h4>
+                                <p>
+                                    I'm following an education to become a Full Stack Developer through a program accredited by the
+                                    Edinburgh Napier University. I do possess work experience in other areas of expertise as well.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6"> <!-- col-10 will have an "offset" of 1 column on the left and right side/ this is set off for sm-size devices which will get 3 columns/ md-size devices will get 2 columns only-->
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-magic" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                <p>
+                                    By not only learning how to build and maintain websites and their styles in the most costumer-friendly 
+                                    and comprehensive way, but also gaining knowledge about the reasons behind these methods.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6"> <!-- col-10 will have an "offset" of 1 column on the left and right side/ this is set off for sm-size devices which will get 3 columns/ md-size devices will get 2 columns only-->
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-thumbs-o-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+                                <p>
+                                   As I am still in traning phase and are an eager learner, it will be easier for me to adapt to new cases and situations.
+                                   My previous working experiences in other areas of expertise will give me an advatage on communicating more easily and
+                                   effectively in either teams or individually. I also like to explore and discover, and throw some humor in while I'm at it.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

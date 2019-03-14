@@ -7,7 +7,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #EEE02F;
+    background-color: #ffc107;
 }
 
 .ui-menu-color-resume {
@@ -24,6 +24,10 @@
 
 .bg-color-three-reasons {
     background-color: #fff;
+}
+
+.bg-color-personal-info {
+    background-color: #f9f6ec;
 }
 
 /*------------------------------Special paddings/margins/text*/
@@ -89,7 +93,7 @@ header {
 .name {
     font-family: "Catamaran", sans-serif;
     font-weight: 100;
-    font-size: 46px;
+    font-size: 45px;
     margin-top: 50px;
     margin-left: 20px;
     color: #E8FFED;
@@ -196,7 +200,7 @@ footer {
     line-height: 9px;
     text-align: center;
     color: #E8FFED;
-    background-color: #BFBFBF;
+    background-color: #8e8888;
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
@@ -204,9 +208,20 @@ footer {
 }
 
 .social-links li a i:hover {
-   background-color: #EEE02F; 
+   background-color: #FA6FAE; 
 }
 
 #footer-details {
     padding: 20px;
+}
+
+/*------------------------------Three reasons*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #ffc107;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
