@@ -70,9 +70,18 @@ h1,h2,h3,h4 {
 
 .section-heading {
     font-family: "Catamaran", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.logo2 {
+    background: url(../images/sakura.png);
+    background-repeat: no-repeat;
+    min-height: 360px;
+    min-height: 360px;
+    position: relative;
+    padding: 20px 0px 0px 0px;
 }
 
 /*------------------------------Heading*/
@@ -95,7 +104,6 @@ header {
     -o-transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out;
-    
 }
 
 .name {
@@ -234,6 +242,10 @@ footer {
     margin-bottom: 15px;
 }
 
+.three-reasons-color {
+    color: #606060;
+}
+
 /*------------------------------Personal Info*/
 
 .personal-info-item {
@@ -267,6 +279,8 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+    font-weight: 500;
+    color: #585858;
 }
 
 .word-break {
@@ -348,7 +362,7 @@ footer {
     margin-bottom: 30px;
 }
 
-/*------------------------------Contact From*/
+/*------------------------------Contact Form*/
 
 .contact-heading {
     font-family: "Catamaran", sans-serif;
@@ -368,6 +382,7 @@ button[type="submit"] { /*this is a JavaScript object and one of the many ways t
     margin-bottom: 20px;
     color: #E8FFED;
     background-color: #FA6FAE;
+    font-weight: 500;
 }
 
 .btn-secondary:hover {
