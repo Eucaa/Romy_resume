@@ -38,6 +38,15 @@
     background-color: #fff;
 }
 
+.temp-btn-style { /*temporary style */
+    color: #E8FFED;
+}
+
+a.temp-btn-style:hover { /*temporary style */
+    color: #E8FFED;
+    text-decoration: none;
+}
+
 /*------------------------------Special paddings/margins/text*/
 
 h1,h2,h3,h4 {
@@ -383,6 +392,8 @@ button[type="submit"] { /*this is a JavaScript object and one of the many ways t
     color: #E8FFED;
     background-color: #FA6FAE;
     font-weight: 500;
+    width: 200px; /*temporary adding*/
+    height: 50px; /*temporary adding*/
 }
 
 .btn-secondary:hover {
