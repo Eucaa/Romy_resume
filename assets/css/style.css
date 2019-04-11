@@ -392,7 +392,8 @@ button[type="submit"] { /*this is a JavaScript object and one of the many ways t
     color: #E8FFED;
     background-color: #FA6FAE;
     font-weight: 500;
-    width: 200px; /*temporary adding*/
+    font-size: x-large; /*temporary adding*/
+    width: 170px; /*temporary adding*/
     height: 50px; /*temporary adding*/
 }
 
