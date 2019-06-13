@@ -325,6 +325,10 @@ footer {
     background-color: #ffd207!important;
 }
 
+.bg-bootstrap {
+    background-color: magenta!important;
+}
+
 /*------------------------------Work History*/
 .work-history {
     margin-bottom: 50px;
