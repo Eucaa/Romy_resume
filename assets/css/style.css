@@ -22,6 +22,14 @@
     background-color: #BFBFBF;
 }
 
+.ui-menu-color-github {
+    background-color: #a7afff;
+}
+
+.ui-menu-color-interests {
+    background-color: #F39160;
+}
+
 .bg-color-three-reasons {
     background-color: #fff;
 }
@@ -72,7 +80,7 @@ h1,h2,h3,h4 {
 }    
 
 .section-column {
-    display: table-cell; /*yup, this is the indication for the styling of the child element of call "row-table"*/
+    display: inline-table; /*yup, this is the indication for the styling of the child element of call "row-table"*/
     padding: 0 30px 30px;
     float: none; /*to stop unnecessary breaks from happening in older BS versions*/
 }
@@ -295,6 +303,8 @@ footer {
 .word-break {
     word-break: break-word; 
 }
+
+#map {min-height: 360px;}
 
 /*------------------------------Skills*/
 

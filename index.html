@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="row no-gutters"> <!--in Bootstrap 4, the first child following a row class has to be a column so an a-tag for anchor e.g.-->
+        <div class="row no-gutters"> <!--in Bootstrap 4, the first child following a row class has to be a column-class so an a-tag for anchor e.g.-->
             <a href="index.html" class="col-md-4 logo"> <!-- class logo is for access image and logo styling-->
             </a>
             <div class="col-md-8"> <!--BS will automatically set in a full with for any sizes smaller than md, so no extra tags are needed for that-->
@@ -26,16 +26,22 @@
                 <div class="row no-gutters"> <!--no-gutters deletes all other remaning white spaces that are left by Bootstrap within the indictaed areas--> 
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem"> <!--it is necessary to give all <li> the class list-inline-item, when using Bootstrap-->
+                            <li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem"> <!--it is necessary to give all <li> the class list-inline-item, when using Bootstrap-->
                                 <a href="index.html" class=" hvr-sweep-to-top"><i class="fa fa-globe" aria-hidden="true"></i><span>Home</span></a> <!-- <i> element for font-awsome (fa) is recommended-->
                             </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem"> <!--using easy comprihendable class names like ui-menu-color-resume etc makes it easier to find and adjust later-->
+                            <li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem"> <!--using easy comprihendable class names like ui-menu-color-resume etc makes it easier to find and adjust later-->
                                 <a href="resume.html" class=" hvr-sweep-to-top"><i class="fa fa-university" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
+                            <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
                                 <a href="contact.html" class=" hvr-sweep-to-top"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a> <!-- <a> is a child of class "menuitem" as it is placed last in line of the classes mentioned above-->
                             </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
+                            <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem"> <script type="text/javascript" src=""></script>
+                                <a href="https://github.com/Eucaa?tab=repositories" target="_blank" class=" hvr-sweep-to-top"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a> 
+                            </li>
+                            <li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem"> <script type="text/javascript" src=""></script>
+                                <a href="interests.html" class=" hvr-sweep-to-top"><i class="fa fa-smile-o" aria-hidden="true"></i><span>Interests</span></a> 
+                            </li>
+                            <li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
                                 <a href="assets/CV/CV_Romy(Eng)V.pdf" target="_blank" class=" hvr-sweep-to-top"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
