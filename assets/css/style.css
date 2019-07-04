@@ -96,9 +96,19 @@ h1,h2,h3,h4 {
     background: url(../images/sakura.png);
     background-repeat: no-repeat;
     min-height: 360px;
-    min-height: 360px;
     position: relative;
     padding: 20px 0px 0px 0px;
+}
+
+.middle-monster {
+    position: relative;
+    text-align: center;
+    margin-top: 5em;
+    color: #7851a0;
+}
+
+.monster_position {
+    margin: 1em;
 }
 
 /*------------------------------Heading*/
@@ -426,3 +436,4 @@ button[type="submit"] { /*this is a JavaScript object and one of the many ways t
         max-width: 50%;
     }
 }
+
